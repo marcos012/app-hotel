@@ -1,0 +1,1 @@
+// Validations - simplificado para treinamento

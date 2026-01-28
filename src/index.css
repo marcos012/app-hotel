@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* Base Colors */
+    --background: 0 0% 100%;
+    /* #FFFFFF */
+    --foreground: 220 13% 13%;
+    /* #1D293D */
+
+    /* Primary Colors - Airbnb Pink/Red */
+    --primary: 351 100% 61%;
+    /* #FF385C */
+    --primary-foreground: 0 0% 100%;
+    /* #FFFFFF */
+
+    /* Secondary Colors */
+    --secondary: 210 40% 96.1%;
+    /* Light gray */
+    --secondary-foreground: 220 13% 13%;
+    /* #1D293D */
+
+    /* Muted Colors */
+    --muted: 220 14% 95%;
+    /* #71757A */
+    --muted-foreground: 0 0% 60%;
+    /* #999DA9 */
+
+    /* Accent Colors */
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 220 13% 13%;
+
+    /* Destructive/Error Colors - Red from Design System */
+    --destructive: 355 95% 52%;
+    /* #F44444 */
+    --destructive-foreground: 0 0% 100%;
+
+    /* Success Colors - Green from Design System */
+    --success: 150 100% 25%;
+    /* #008236 */
+    --success-foreground: 0 0% 100%;
+
+    /* Warning Colors - Yellow from Design System */
+    --warning: 43 100% 47%;
+    /* #F0B100 */
+    --warning-foreground: 0 0% 0%;
+
+    /* Border Colors */
+    --border: 210 16% 93%;
+    /* #E5E7EB similar */
+    --input: 210 16% 93%;
+    --ring: 351 100% 61%;
+    /* Primary color - Airbnb Pink */
+
+    /* Neutral Colors from Design System */
+    --neutral-50: 0 0% 98%;
+    /* #FAFAFA */
+    --neutral-500: 0 0% 45%;
+    /* #737373 */
+    --neutral-600: 0 0% 32%;
+    /* #525252 */
+    --neutral-950: 0 0% 4%;
+    /* #0A0A0A */
+
+    /* Gray Colors from Design System */
+    --gray-100: 220 14% 95%;
+    /* #F3F4F6 */
+    --gray-200: 214 14% 90%;
+    /* #E5E7EB */
+    --gray-600: 220 9% 29%;
+    /* #4A5565 */
+    --gray-900: 220 26% 14%;
+    /* #101828 */
+    --gray-950: 220 39% 2%;
+    /* #030712 */
+
+    /* Zinc Colors */
+    --zinc-300: 240 5% 84%;
+    /* #D4D4D8 */
+    --zinc-700: 240 4% 25%;
+    /* #3F3F46 */
+
+    /* Radius */
+    --radius: 0.5rem;
+
+    /* Card */
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 13%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 13%;
+
+    /* Chart Colors */
+    --chart-1: 351 100% 61%;
+    /* Primary - Airbnb Pink */
+    --chart-2: 150 100% 25%;
+    /* Success */
+    --chart-3: 355 95% 52%;
+    /* Error */
+    --chart-4: 43 100% 47%;
+    /* Warning */
+    --chart-5: 262 83% 58%;
+}
+
+body {
+    font-family: 'Roboto', 'SF Pro Display', 'Inter', system-ui, sans-serif;
+}
